@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Flip &amp; Reveal — a Flexbox game</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <h1>Flip &amp; Reveal</h1>
+  <p>A small memory game built with Flexbox, the box model and CSS 3D transforms — no JavaScript. Flip the cards and try to remember where each pair is.</p>
+</header>
+
+<form class="game-board">
+
+  <div class="card">
+    <input type="checkbox" id="c1" class="card-toggle" />
+    <label for="c1" class="card-inner">
+      <div class="card-face card-front">?</div>
+      <div class="card-face card-back">🐍</div>
+    </label>
+  </div>
+
+  <div class="card">
+    <input type="checkbox" id="c2" class="card-toggle" />
+    <label for="c2" class="card-inner">
+      <div class="card-face card-front">?</div>
+      <div class="card-face card-back">☕</div>
+    </label>
+  </div>
+
+  <div class="card">
+    <input type="checkbox" id="c3" class="card-toggle" />
+    <label for="c3" class="card-inner">
+      <div class="card-face card-front">?</div>
+      <div class="card-face card-back">🎨</div>
+    </label>
+  </div>
+
+  <div class="card">
+    <input type="checkbox" id="c4" class="card-toggle" />
+    <label for="c4" class="card-inner">
+      <div class="card-face card-front">?</div>
+      <div class="card-face card-back">🐍</div>
+    </label>
+  </div>
+
+  <div class="card">
+    <input type="checkbox" id="c5" class="card-toggle" />
+    <label for="c5" class="card-inner">
+      <div class="card-face card-front">?</div>
+      <div class="card-face card-back">📦</div>
+    </label>
+  </div>
+
+  <div class="card">
+    <input type="checkbox" id="c6" class="card-toggle" />
+    <label for="c6" class="card-inner">
+      <div class="card-face card-front">?</div>
+      <div class="card-face card-back">☕</div>
+    </label>
+  </div>
+
+  <div class="card">
+    <input type="checkbox" id="c7" class="card-toggle" />
+    <label for="c7" class="card-inner">
+      <div class="card-face card-front">?</div>
+      <div class="card-face card-back">🚀</div>
+    </label>
+  </div>
+
+  <div class="card">
+    <input type="checkbox" id="c8" class="card-toggle" />
+    <label for="c8" class="card-inner">
+      <div class="card-face card-front">?</div>
+      <div class="card-face card-back">📦</div>
+    </label>
+  </div>
+
+  <div class="card">
+    <input type="checkbox" id="c9" class="card-toggle" />
+    <label for="c9" class="card-inner">
+      <div class="card-face card-front">?</div>
+      <div class="card-face card-back">🎨</div>
+    </label>
+  </div>
+
+  <div class="card">
+    <input type="checkbox" id="c10" class="card-toggle" />
+    <label for="c10" class="card-inner">
+      <div class="card-face card-front">?</div>
+      <div class="card-face card-back">🧠</div>
+    </label>
+  </div>
+
+  <div class="card">
+    <input type="checkbox" id="c11" class="card-toggle" />
+    <label for="c11" class="card-inner">
+      <div class="card-face card-front">?</div>
+      <div class="card-face card-back">🚀</div>
+    </label>
+  </div>
+
+  <div class="card">
+    <input type="checkbox" id="c12" class="card-toggle" />
+    <label for="c12" class="card-inner">
+      <div class="card-face card-front">?</div>
+      <div class="card-face card-back">🧠</div>
+    </label>
+  </div>
+
+  <div class="controls">
+    <button type="reset" class="btn">Reset cards</button>
+  </div>
+
+</form>
+
+<footer>Built with HTML &amp; CSS.</footer>
+
+</body>
+</html>
